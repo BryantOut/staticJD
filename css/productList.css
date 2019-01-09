@@ -1,0 +1,142 @@
+/* head部分开始 */
+
+.head .head-logo {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    width: 256px;
+    height: 66px;
+}
+
+.head .head-logo h1 {
+    float: left;
+    width: 173px;
+    height: 55px;
+    background: url('../img/icons.png') no-repeat -372px -13px;
+    text-indent: -999em;
+}
+
+.head .head-logo h2 {
+    float: right;
+    width: 56px;
+    height: 26px;
+    margin-top: 14px;
+    padding: 2px 0;
+    border-left: 2px solid #b11919;
+    padding-left: 13px;
+    /* background: url('../img/secKill_03.png') no-repeat; */
+}
+
+.head-nav {
+    left: 389px;
+}
+.head-nav li {
+    float: left;
+    margin-right: 54px;
+    font-size: 15px;
+}
+
+.head-secondkill-nav {
+    position: absolute;
+    bottom: 13px;
+    left: 27px;
+}
+
+.head-secondkill-nav ul li {
+    float: left;
+    margin-right: 55px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.head-secondkill-nav ul li a {
+    color: #000;
+}
+
+/* head部分结束 */
+
+/* banner部分开始 */
+
+.banner {
+    height: 119px;
+    margin-bottom: 24px;
+}
+
+/* banner部分结束 */
+
+/* main部分开始 */
+.main ul li {
+    position: relative;
+    float: left;
+    width: 280px;
+    height: 460px;
+    padding-top: 0px;
+    margin-right: 14px;
+    margin-bottom: 8px;
+    /* border: 1px solid #b11a1a; */
+    /* border-bottom: none; */
+    
+}
+.main ul li:hover {
+    outline:1px solid #b11a1a;
+}
+
+.main ul li img {
+    width: 100%;
+}
+
+.main ul li p {
+    font-size: 14px;
+    color: #c0c0c0;
+    margin-top: 22px;
+    padding: 0 12px;
+}
+.sales {
+    padding: 0 12px;
+}
+.main ul li>span {
+    display: block;
+    padding: 0 12px;
+}
+
+.main ul li span em {
+    font-size: 18px;
+    color: #e60012;
+}
+
+.main ul li span em span {
+    font-size: 14px;
+}
+
+.main ul li span del {
+    color: #a9a9a9;
+    color: 14px;
+}
+
+.main .progress {
+    display: inline-block;
+    width: 129px;
+    height: 10px;
+    border: 1px solid #e60012;
+    border-radius: 5px;
+}
+.main .progress span {
+    display: block;
+    width: 87%;
+    height: 10px;
+    background-color: #e60012;
+}
+.main input {
+    position: absolute;
+    bottom: 0px;
+    width: 280px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #e60012;
+}
+/* main部分结束 */
+
+.footer {
+    margin-top: 274px;
+}

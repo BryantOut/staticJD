@@ -1,0 +1,128 @@
+/* 模板初始化开始 */
+.head {
+    position: static;
+    height: 76px;
+    padding-top: 12px;
+}
+.head .head-logo  {
+    position: static;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 39px;
+    background-color: #fff;
+}
+/* 模板初始化结束 */
+
+/* main部分开始 */
+.main{
+    width: 1198px;
+    height: 520px;
+    border: 1px solid #dedede;
+}
+.main-head {
+    width: 1178px;
+    height: 40px;
+    background-color: #ececec;
+    border-bottom: 1px solid #dedede;
+    padding: 0 10px;
+}
+.main-head .main-head-left {
+    float: left;
+    line-height: 40px;
+    font-size: 17px;
+    color: #333;
+}
+.main-head-right {
+    float: right;
+    line-height: 40px;
+    font-size: 15px;
+    color: #333;
+}
+.main-head-right a {
+    color: #ca333f;
+}
+.mian-box ul li label {
+    display: inline-block;
+    width: 83px;
+    text-align: right;
+    font-size: 14px;
+}
+.mian-box ul li {
+    margin-bottom: 20px;
+}
+.mian-box ul li input[type="text"]{
+    width: 230px;
+    height: 34px;
+    border: 1px solid #999;
+    padding-left: 8px;
+    font-size: 14px;
+}
+.mian-box ul {
+    width: 556px;
+    margin: 54px auto 0;
+}
+.mian-box ul li span {
+    display: inline-block;
+    height: 20px;
+    color: #DF2F33;
+    padding-left: 25px;
+    /* background: url('../img/alertIcon.gif') no-repeat; */
+}
+.mian-box ul li div {
+    width: 315px;
+    height: 5px;
+    text-align: right;
+    margin-top: 5px;
+}
+.mian-box ul li div i:nth-child(2) {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+    background-color: #dd1010;
+}
+.mian-box ul li div i:nth-child(3) {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+    background-color: #48b53d;
+}
+.mian-box ul li div i:nth-child(4) {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+    background-color: #f79200;
+}
+.mian-box ul li div em {
+    color: #bfbfbf;
+}
+.mian-box ul li:nth-child(5) {
+    padding-left: 111px;
+}
+.mian-box ul li input[type="checkbox"] {
+    vertical-align: middle; 
+}
+.mian-box ul li:nth-child(5) i {
+    color: #1BA1E5;
+}
+.mian-box ul li:nth-child(5) em {
+    cursor: pointer;
+}
+.successLogin {
+    width: 200px;
+    height: 34px;
+    background-color: #c81822;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 122px;
+}
+

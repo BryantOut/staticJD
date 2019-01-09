@@ -1,0 +1,632 @@
+/* head-adv部分开始 */
+.head-adv {
+    background-color: #ff6375;
+}
+.head-adv .w {
+    position: relative;
+}
+.head-adv .iconfont {
+    font-family:"iconfont" !important;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    color: rgba(255,255,255,.6);
+    text-align: center;
+    line-height: 20px;
+    background: rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+.head-adv .iconfont:hover {
+    color: rgba(0,0,0,.6);
+    background: rgba(255, 255, 255, .5);
+}
+/* head-adv部分结束 */
+
+
+/* main部分开始 */
+.main {
+    border-top: 2px solid #b11919;
+}
+.mian-left {
+    float: left;
+    margin-top: -47px;
+    width: 209px;
+    height: 512px;
+    background-color: #c71523;
+}
+.mian-left h2 {
+    height: 47px;
+    line-height: 47px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #b11919;
+}
+
+.mian-left li {
+    height: 28px;
+    line-height: 28px;
+    margin-top: 3px;
+    padding-left: 12px;
+    padding-right: 8px;
+    font-size: 12px;
+    color: #fff;
+}
+.mian-left li:hover {
+    background-color: #ccc;
+}
+.mian-left li:hover a,
+.mian-left li:hover .iconfont
+{
+    color: #fff;
+}
+.mian-left li a:hover,
+.mian-left li a:hover+.iconfont{
+    color: #b11919;
+}
+/* .mian-left li a:hover {
+    color: #b11919;
+} */
+.mian-left li .iconfont {
+    float: right;
+    font-family:"iconfont";
+}
+.mian-left li a {
+    color: #fff;
+}
+.main-center {
+    float: left;
+    position: relative;
+    width: 721px;
+    height: 455px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.arrow-box {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top:-30px;
+}
+.arrow-box span {
+    float: left;
+    width: 30px;
+    height: 60px;
+    text-align: center;
+    background: rgba(0, 0, 0, .4);
+}
+.arrow-box span:hover {
+    float: left;
+    width: 30px;
+    height: 60px;
+    background: rgba(255, 255, 255, .4);
+}
+.arrow-box span i {
+    width: 30px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family:"iconfont";
+    font-size: 24px;
+    cursor: pointer;
+}
+.arrow-box span:nth-child(1) {
+    float: left;
+    border-radius: 0 30px 30px 0;
+}
+.arrow-box span:nth-child(2) {
+    float: right;
+    border-radius: 30px 0 0 30px;
+}
+.main-center ul {
+    position: absolute;
+    left:50%;
+    margin-left: -91px;
+    bottom: 15px;
+    width: 182px;
+    height: 20px;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 10px;
+    padding-left: 3px;
+}
+.main-center li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 4px 5px;
+}
+.main-center .current {
+    background-color:  #b11919;;
+}
+.main-right {
+    float: right;
+    margin-top: 10px;
+    width: 248px;
+    height: 455px;
+}
+.fast-news {
+    position: relative;
+    width: 247px;
+    height: 373px;
+    border: 1px solid #e4e4e4;
+}
+.fast-news h3 {
+    width: 218px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.fast-news h3 span {
+    float: right;
+}
+.fast-news p {
+    margin-left: 15px;
+    height: 24px;
+    line-height: 24px;
+}
+.mian-right-adv {
+    margin-top: 4px;
+}
+.mian-right-adv img {
+    width: 100%;
+}
+.main-right ul {
+    margin-top: 2px;
+    width: 248px;
+}
+.main-right li {
+    float: left;
+}
+.main-right li a{
+    display: block;
+    width: 61px;
+    height: 70px;
+    text-align: center;
+    border-top: 1px solid #e8e8e7;
+    border-right: 1px solid #e8e8e7;
+}
+.main-right li em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -16px -16px;
+}
+.main-right li:nth-child(2) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -78px -16px;
+}
+.main-right li:nth-child(3) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -140px -16px;
+}
+.main-right li:nth-child(4) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -204px -16px;
+}
+.main-right li:nth-child(8) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -204px -85px;
+}
+.main-right li:nth-child(7) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -141px -85px;
+}
+.main-right li:nth-child(6) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -77px -85px;
+}
+.main-right li:nth-child(5) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -16px -85px;
+}
+.main-right li:nth-child(9) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -16px -157px;
+}
+.main-right li:nth-child(10) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -77px -157px;
+}
+.main-right li:nth-child(11) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -138px -157px;
+}
+.main-right li:nth-child(12) em {
+    display: block;
+    margin: 10px auto;
+    width: 26px;
+    height: 27px;
+    background: url('../img/icons.png') no-repeat -204px -157px;
+}
+/* main部分结束 */
+/* todayRec部分开始 */
+.todayRec {
+    margin-top: 10px;
+}
+.todayRec-left {
+    float: left;
+    width: 205px;
+    height: 162px;
+    color: #fff;
+    background-color: #5b5151;
+}
+.todayRec-left .iconfont {
+    font-size: 57px;
+    color: #fff;
+    font-family:"iconfont";
+    
+}
+.todayRec-left span {
+    display: block;
+    width: 75px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    margin:0 auto;
+}
+.todayRec-left .clock-box {
+    width: 57px;
+    height: 57px;
+    text-align: center;
+    line-height: 57px;
+    margin:31px auto 9px;
+}
+.todayRec-right {
+    float: left;
+    width: 976px;
+    height: 163px;
+    background-color: #ebebeb;
+    padding-left: 18px;
+}
+.todayRec-right ul {
+    padding-top: 10px;
+    
+}
+.todayRec-right li {
+    padding-left: 18px;
+    float: left;
+    width: 225px;
+    height: 143px;
+    border-right: 1px solid #dddddd;
+    cursor: pointer;
+}
+.todayRec-right li:nth-child(4) {
+    border: none;
+}
+.todayRec-info {
+    float: left;
+    width: 90px;
+    height: 107px;
+}
+.todayRec-info h3 {
+    font:700 16px "microsoft yahei";
+}
+.todayRec-info em {
+    display: block;
+    width: 87px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    margin:4px 0 6px 0;
+    font: 14px "microsoft yahei";
+    color: #fff;
+    background-color: #009fe7;
+}
+.todayRec-right li:nth-child(2) em {
+    background-color: #94cb54;
+}
+.todayRec-right li:nth-child(3) em {
+    background-color: #e1152f;
+}
+.todayRec-info i {
+    display: block;
+    font: 12px "microsoft yahei";
+    margin-bottom: 21px;
+}
+.todayRec-info span {
+    display: block;
+    width: 57px;
+    height: 18px;
+    text-align: center;
+    font: 14px/18px "microsoft yahei";
+    background-color:#5fb100;
+    color: #fff;
+    border-radius: 9px;
+}
+.todayRec-right li:nth-child(3) span {
+    background-color: #e1152f;
+}
+.todayRec-right li:nth-child(4) span {
+    background-color: #0085fb;
+}
+.todayRec-img {
+    float: right;
+    width: 124px;
+    height: 124px;
+    margin-top: 6px;
+    margin-right: 11px;
+}
+/* todayRec部分结束 */
+/* product-show部分开始 */
+.product-show {
+    margin-top: 20px;
+}
+
+.product-show-title {
+    height: 37px;
+    line-height: 37px;
+    border-bottom: 2px solid #c71523;
+}
+.product-show h3 {
+    font-size: 17px;
+    float: left;
+}
+.product-show ul {
+    float: right;
+}
+.product-show ul li {
+    font-size: 12px;
+    float: left;
+}
+.product-show ul li.line {
+    margin: 0 14px 0 16px;
+}
+.product-show-content-left {
+    float: left;
+    width: 210px;
+    height: 360px;
+    margin-left: 1px;
+    padding-left: 13px;
+    background-color: #f9f9f9;
+    transition: all 0.3s;
+}
+.product-show-content-left:hover {
+    transform:scale(1.02);
+}
+
+.product-show-content-left li {
+    float: left;
+    width: 86px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-bottom: 1px solid #ededed;
+    margin-right: 12px;
+}
+.product-show-content-center {
+    float: left;
+    width: 328px;
+    height: 359px;
+    transition: all 0.3s;
+}
+.product-show-content-center:hover {
+    /* position: relative;
+    left: 8px; */
+    /* transform: translate(5px,-3px) scale(1.02); */
+    transform:scale(1.02);
+}
+/* .product-show-content-center img {
+    transition: all 2s;
+} */
+/* .product-show-content-center img:hover {
+    margin-left: 10px;
+} */
+.product-show-content-right {
+    float: right;
+}
+.product-show-content-right li {
+    width: 215px;
+    height: 360px;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.product-show-content-right li:nth-child(2) {
+    transition: all 0.2s;
+}
+.product-show-content-right li:nth-child(2):hover {
+    transform:scale(1.02);
+}
+.product-show-little-img {
+    width: 215px;
+    height: 180px;
+    margin-right: 0px;
+    transition: all 0.2s;
+}
+.product-show-little-img:hover {
+    transform:scale(1.02);
+}
+.product-show-footer-brand ul {
+    float: left;
+    padding: 13px 0;        
+    background-color: #f7f7f7;
+}
+.product-show-footer-brand li {
+    float: left;
+    width: 111px;
+    height: 37px;
+    padding-left: 8px;
+    border-right: 1px dotted #cccccc;
+}
+.product-show-footer-brand ul li:nth-child(10) {
+    border: none;
+}
+/* product-show部分结束 */
+
+/* guessYouLike部分开始 */
+.guessYouLike {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.guessYouLikeTitle {
+    font-size: 18px;
+    font-family: "microsoft yahei";
+}
+.guessYouLike li {
+    float: left;
+    width: 200px;
+    cursor: pointer;
+}
+.guessYouLike li img {
+    display: block;
+    width: 160px;
+    height: 141px;
+    margin: 0 auto 5px;
+    
+}
+.guessYouLike li .proInfo {
+    width: 122px;
+    border-right: 1px solid #ededed;
+    padding-left:35px;
+    padding-right: 25px;
+}
+.guessYouLike li .proInfo {
+    line-height: 22px;
+    
+}
+.guessYouLike span {
+    display: block;
+    font-size: 18px;
+    color: #de2d32;
+}
+.guessYouLike span i {
+    font-size: 14px;
+}
+.guessYouLike img {
+    transition: all 0.2s;
+}
+.guessYouLike img:hover {
+    transform: scale(1.02);
+}
+/* guessYouLike部分结束 */
+
+/* funnyArea部分开始 */
+.funnyArea {
+    margin-bottom: 30px;
+}
+.funnyAreaTitle {
+    font-size: 18px;
+    font-family: "microsoft yahei";
+}
+.funnyAreaContent {
+    width: 100%;
+    height: 405px;
+}
+.bigAdv {
+    float: left;
+}
+.goodPro {
+    float: left;
+    overflow: hidden;
+    width: 225px;
+    height: 404px;
+    border-top:1px solid #ededed;;
+}
+.funnyAreaContent .line {
+    display: block;
+    width: 192px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #ededed;
+}
+.goodPro span {
+    display: block;
+    width: 100%;
+    line-height: 38px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+.goodPro ul li:nth-child(1) {
+    border-bottom: 1px solid #ededed;
+}
+.funnyArea img {
+    transition: all 0.2s;
+}
+.funnyArea img:hover {
+    transform:scale(1.02);
+    cursor: pointer;
+}
+/* funnyArea部分结束 */
+/* brandStreet部分开始 */
+.brandStreet {
+    float: left;
+    width: 407px;
+    height: 408px;
+    background-color: #f7f7f7;
+}
+.brandStreet span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+.brandStreet .line {
+    display: block;
+    width: 366px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #ededed;
+}
+.brandStreet ul li:nth-child(1) {
+    border-bottom: 1px solid #ededed;
+}
+.brandStreet ul li:nth-child(2) img {
+    float: left;
+}
+.brandStreet ul li:nth-child(2) img:nth-child(1){
+    border-right: 1px solid #ededed;
+}
+/* brandStreet部分结束 */
+
+/* hotPro部分开始 */
+.hotProTitle {
+    font-size: 18px;
+    font-family: "microsoft yahei";
+}
+/* hotPro部分结束 */

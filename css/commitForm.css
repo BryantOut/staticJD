@@ -1,0 +1,295 @@
+/*初始化模板样式开始*/
+.head {
+    height: 84px;
+}
+.head-search {
+    left: 662px;
+}
+.head h3 {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    font-size: 20px;
+}
+.footer {
+    margin-top: 93px;
+}
+/*初始化模板样式结束*/
+/* main部分开始 */
+.formHead {
+    margin-top: 25px;
+    margin-bottom: 19px;
+}
+.formHead h4 {
+    font-size: 17px;
+    font-weight: 100;
+}
+.mian ul {
+    padding: 20px 24px 0 24px;
+}  
+.main ul li {
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+.main ul li h6 {
+    position: absolute;
+    top: 6px;
+    font-size: 15px;
+    color: #343434;
+}
+.main ul li:nth-child(1) {
+    height: 155px;
+}
+.userInfo span:nth-child(1){
+    position: absolute;
+    left: 31px;
+    top: 45px;
+    width: 140px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+.userInfo span:nth-child(1):hover,
+.userInfo span:nth-child(2):hover
+{
+    border: 1px solid #c81523;
+}
+.userInfo span:nth-child(2){
+    position: absolute;
+    left: 201px;
+    top: 45px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+.moreAddress i {
+    font-family: "iconfont";
+}
+.moreAddress  {
+    position: absolute;
+    top: 118px;
+    left: 47px;
+}
+.main ul li:nth-child(2) {
+    height: 69px;
+}
+.main ul li:nth-child(2) input {
+    position: absolute;
+    top: 20px;
+    left: 44px;
+    width: 142px;
+    height: 28px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.main ul li:nth-child(2) span:nth-child(2) {
+    position: absolute;
+    top: 26px;
+    left: 204px;
+}
+.main ul li:nth-child(2) span:nth-child(3) {
+    position: absolute;
+    top: 26px;
+    left: 287px;
+}
+.main ul li:nth-child(3) {
+    height: 104px;
+}
+.payMethod {
+    position: absolute;
+    top: 53px;
+    left: 68px;
+}
+.payMethod a:nth-child(2) {
+    margin: 0 60px;
+}
+.payMethod a:last-child {
+    margin-left: 60px;
+}
+.payMethod a:last-child i {
+    font-family:"iconfont";
+}
+.main ul li:nth-child(4) {
+    position: static;
+    height: 332px;
+}
+.main ul li:nth-child(4) h6 {
+    margin-top: 6px;
+    position: static;
+}
+.deliveryMethod {
+    position: relative;
+    margin-top: 23px;
+    width: 100%;
+    height: 101px;
+    background-color: #f3f3f3;
+}
+.deliveryMethod span {
+    position: absolute;
+    top: 19px;
+    left: 26px;
+    font-weight: bold;
+}
+.deliveryMethod i {
+    position: absolute;
+    top: 51px;
+    left: 44px;
+    width: 144px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    color: #656565;
+    font-family: "simsum";
+}
+.deliveryMethod em {
+    position: absolute;
+    top: 56px;
+    left: 236px;
+}
+.deliveryPro {
+    width: 100%;
+    height: 153px;
+    background-color: #fdecee;
+}
+.deliveryPro {
+    position: relative;
+}
+.deliveryPro span {
+    position: absolute;
+    top: 19px;
+    left: 26px;
+    font-weight: bold;
+}
+.deliveryMethod a {
+    position: absolute;
+    top: 56px;
+    left: 1091px;
+    color: #1373AE;
+}
+.good .goodImg{
+    position: absolute;
+    top: 51px;
+    left: 44px; 
+}
+.good .goodName {
+    position: absolute;
+    top: 55px;
+    left: 235px; 
+}
+.good .goodName em {
+    display: block;
+}
+.good .goodName i {
+    display: block;
+    margin-top: 28px;
+    color: #c81623;
+}
+.subtotal {
+    position: absolute;
+    top: 64px;
+    left: 888px;
+    color: #E02127;
+    font-size: 14px;
+}
+.amount {
+    position: absolute;
+    top: 64px;
+    left: 1002px;
+}
+.inventory {
+    position: absolute;
+    top: 83px;
+    left: 1092px;
+}
+.main ul li:nth-child(5) {
+    position: relative;
+    height: 214px;
+    border:none;
+}
+.billInfo {
+    position: absolute;
+    top: 54px;
+    left: 45px;
+}
+.billInfo i {
+    float: left;
+}
+.billInfo i:nth-child(2) {
+    margin-left: 37px;
+    margin-right: 31px;
+}
+.billInfo a:last-child {
+    margin-left: 31px;
+    color: #1c73b5;
+    cursor: pointer;
+}
+.othersAboutBill {
+    position: absolute;
+    top: 86px;
+    left: 45px;
+}
+.othersAboutBill i {
+    font-family:"iconfont";
+}
+.billContent {
+    position: absolute;
+    top: 146px;
+    left: 896px;
+}
+.billContent span {
+    float: left;
+}
+.billContent span em{
+    color: #c81623;
+}
+.billContent p span:nth-child(1) {
+    width: 130px;
+    text-align: right;
+    margin-right: 77px;
+}
+.main ul li:nth-child(6) {
+    position: relative;
+    height: 74px;
+    border:none;
+    background-color: #f3f3f3;
+}
+.main ul li:nth-child(6) span {
+    position: absolute;
+    top: 21px;
+    right: 32px;
+}
+.main ul li:nth-child(6) span em,
+.main ul li:nth-child(6) span i
+{   
+    line-height: 16px;
+    float: left;
+}
+.main ul li:nth-child(6) span em {
+    color: #E50012;
+    font-size: 16px;
+    margin-left: 31px;
+}
+.main ul li:nth-child(6) .address {
+    position: absolute;
+    right: 32px;
+    top: 42px;
+    color: #999;
+}
+.main {
+    position: relative;
+}
+.commitBtn {
+    position: absolute;
+    right: 33px;
+    bottom: -65px;   
+    width: 140px;
+    height: 46px;
+    background-color: #de3133;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* main部分结束 */

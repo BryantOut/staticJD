@@ -1,0 +1,388 @@
+/*初始化模板样式开始*/
+.head {
+    height: 84px;
+}
+.head-search {
+    left: 662px;
+}
+.head h3 {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    font-size: 20px;
+}
+/*初始化模板样式结束*/
+/* main部分开始 */
+
+/* title标题部分开始 */
+.titleBox {
+    margin-top: 23px;
+}
+.titleBox .selectNum{
+    display: block;
+    font-size: 17px;
+    color: #c51826;
+    margin-bottom: 24px;
+}
+.titleBox .selectNum em {
+    margin-left: 11px;
+}
+.proAttribute {
+    width: 1198px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #dddddd;
+    background-color: #f5f5f5;
+}
+.choiceBox {
+    /* display: inline-block; */
+    margin-left: 4px;
+}
+.choiceBox input {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.choiceBox label {
+    cursor: pointer;
+}
+.goodBox {
+    margin-left: 205px;
+    margin-right: 337px;
+}
+.amountBox {
+    margin-left: 115px;
+    margin-right: 116px;
+}
+.subtotalBox {
+    margin-right: 115px;
+}
+.freightBox {
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+}
+.freightBox input {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.freightBox span {
+    display: inline-block;
+    width: 53px;
+    height: 17px;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    background-color: #c71027;
+}
+.freightBox span label{
+    cursor: pointer;
+} 
+.freightBox em {
+    float: right;
+}
+.freightBox i {
+    color: #d03a45;
+    margin-left: 6px;
+}
+.selectProInfoBox li {
+    position: relative;
+    width: 1198px;
+    min-height: 107px;
+    cursor: pointer;
+    /* padding-bottom: 12px; */
+    /* border: 1px solid #ddd; */
+}
+.selectProInfoBox li:hover {
+    background-color: #fdeeee;
+}
+.selectProInfoBox li .goodImg {
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    left:35px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ededed;
+    overflow: hidden;
+}
+.selectProInfoBox li goodImg img {
+    width: 100%;
+}
+.good .goodName {
+    position: absolute;
+    left: 127px;
+    top: 16px;
+}
+.good .goodName em {
+    float: left;
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+    background: url('../img/icons.png') no-repeat -523px -75px;
+}
+.good .goodName i {
+    float: left;
+    color: #999;
+    margin-top: 2px;
+    margin-left: 6px;
+}
+.goodSize {
+    position: absolute;
+    top: 16px;
+    left: 366px;
+}
+.unitPrice {
+    position: absolute;
+    top: 16px;
+    left: 622px;
+}
+.amount {
+    position: absolute;
+    left: 749px;
+    top: 16px;
+}
+.amount span {
+    position: relative;
+    display: block;
+    width: 95px;
+    height: 28px;
+    border: 1px solid #ddd;
+}
+.amount span i {
+    position: absolute;
+    width: 27px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+}
+.amount span .add {
+    border-right: 1px solid #ddd;
+}
+.amount span .minus {
+    right: 0px;
+    border-left: 1px solid #ddd;
+}
+.amount span em {
+    position: absolute;
+    left:28px;
+    width: 39px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+}
+.subtotal {
+    position: absolute;
+    top: 16px;
+    left: 934px;
+}
+.operate {
+    position: absolute;
+    top: 16px;
+    left: 1095px;
+}
+.changePurchaseInfo h5{
+    float: left;
+}
+.changePurchaseInfo p{
+    float: left;
+    margin-left: 26px;
+    margin-right: 21px;
+}
+.changePurchaseInfo span{
+    display: inline-block;
+    width: 70px;
+    height: 19px;
+    color: #fff;
+    text-align: center;
+    line-height: 19px;
+    margin-right: 7px;
+    background-color: #c71523;
+}
+.changePurchaseInfo {
+    position: absolute;
+    top: 11px;
+    left: 6px;
+}
+.special_activity {
+    height: 203px;
+}
+.special_activity .good .goodImg
+{
+    top: 80px;
+}
+.special_activity .good .goodName,
+.special_activity .good .goodSize
+{
+    top: 44px;
+}
+.present {
+    position: absolute;
+    bottom: 26px;
+    left: 52px;
+    color: #999;
+}
+.settleAccount {
+    width: 1198px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.settleAccount label {
+    cursor: pointer;
+}
+.settleAccount .delAll {
+    margin-left: 29px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.settleAccount a:nth-child(3) {
+    margin-left: 19px;
+    margin-right: 13px;
+}
+.settleAccount a:last-child {
+    margin-left: 13px;
+}
+.btnSettleAccount {
+    float: right;
+    width: 108px;
+    height: 50px;
+    background-color:#e60111;
+    color: #fff;
+    font-size: 16px;
+}
+.settleAccountR {
+    position: relative;
+    display: inline-block;
+    margin-left: 446px;
+}
+
+.settleAccountR i {
+    position: absolute;
+    top: 16px;
+    right: -1px;
+}
+/* title标题部分结束 */
+/* main部分结束 */
+
+/* anewSelect部分开始 */
+.anewSelectTitle {
+    color: #323232;
+}
+.anewSelect .delPro {
+    position: relative;
+    width: 1200px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #fefeed;
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+.delPro  .good {
+    position: absolute;
+    left: 16px;
+}
+.delPro  .good h4 {
+    font: normal 100 12px/32px "simsun";
+    color: #999;
+}
+.delPro .unitPrice {
+    top: 0;
+    left: 577px;
+}
+.delPro .amount {
+    top: 0;
+    left: 786px;
+}
+.delPro .operate {
+    top: 0;
+    left: 1049px;
+}
+.delPro .operate a {
+    float: left;
+}
+.delPro .operate a:nth-child(1) {
+    margin-right: 18px;
+}
+/* anewSelect部分结束 */
+/* recommend部分开始  */
+.recommend {
+    position: relative;
+    margin-bottom: 22px;
+}
+.recommendTitle {
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    font: 12px/39px "microsoft yahei";
+}
+.recommendTitle span {
+    display: inline-block;
+    width: 87px;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #c81822;
+    margin-right: 17px;
+}
+.recommendPro ul {
+    /* margin-right: 1px;
+    margin-top: 20px;
+    margin-left: 40px; */
+    width: 1025px;
+    margin: 20px auto;
+}
+.recommendPro li {
+    float: left;
+    width: 255px;
+    margin-left: -1px;
+    border: 1px dashed #cacaca;
+}
+.recommendPro li h4 {
+    margin: 0 20px;
+}
+.recommendPro li span {
+    display: block;
+    text-align: center;
+    color: #da2778;
+}
+.recommendPro input[type="button"] {
+    display: block;
+    width: 123px;
+    height: 28px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding-left: 21px;
+    margin: 14px auto 20px;
+    background-color: transparent;
+    background: url('../img/addToShopCar.png') no-repeat 14px center;
+    cursor: pointer;
+}
+.arrow i {
+    display: inline-block;
+    width: 20px;
+    height: 51px;
+    /* line-height: 51px; */
+    background-color: #ddd;
+    /* font-family:"iconfont";
+    font-size: 20px; */
+    color: #fff;
+    font: bold 20px/51px "iconfont";
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 1200px;
+}
+.arrow .arrowL {
+    float: left;
+}
+.arrow .arrowR {
+    float: right;
+}
+/* recommend部分结束 */

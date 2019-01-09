@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>品优购-正品低价、品质保障、配送及时、轻松购物！</title>
+    <meta name="description" content="品优购-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+    <meta name="keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,品优购" />
+    <link rel="shortcut icon" href="./favicon.ico">
+    <!-- 引入兼容处理的CSS -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入初始化的CSS -->
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- 引入公共的CSS -->
+    <link rel="stylesheet" href="./css/public.css">
+    <!-- 引入当前的CSS -->
+    <link rel="stylesheet" href="./css/register.css">
+    <base target="_blank">
+</head>
+
+<body>
+    <!--head部分开始-->
+    <div class="head w clearfix">
+        <div class="head-logo">
+            <h1>品优购</h1>
+        </div>
+    </div>
+    <!--head部分结束-->
+    <!-- main部分开始 -->
+    <div class="main">
+        <div class="w">
+            <div class="adv">
+                <a href="#">
+                    <img src="./img/register-img2.gif" alt="">
+                </a>
+            </div>
+            <div class="register-box">
+                <div class="register-method">
+                    <span id="QRcodeRegisterM">
+                        扫描登录
+                    </span>|
+                    <span id="accountRegisterM" class="accountRegisterM">
+                        账户登录
+                    </span>
+                </div>
+                <div class="accountRegister" id="accountRegister">
+                    <span class="alert">公共场所不建议自动登录，以免账号丢失</span>
+                    <input type="text" class="username" placeholder="邮箱/用户名/手机号">
+                    <input type="text" class="password" placeholder="请输入密码">
+               
+                <div class="accountFunction">
+                    <div class="autoRegister">
+                        <input type="checkbox" checked="checked" id="autoRegisterF" />
+                        <label for="autoRegisterF">自动登录</label>
+                    </div>
+                    <div class="forgetPsw">
+                        忘记密码？
+                    </div>   
+                    <input type="button" value="登录" class="btnRegister">
+                    <div class="otherMethodRegister">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    
+                                </a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                        <span>
+                            <a href="./login.html">立即注册</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+                <div class="QRcodeRegister" id="QRcodeRegister">
+                   <span>
+                       <img src="./img/wx_cz.jpg" alt="">
+                   </span>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main部分结束 -->
+    <!-- footer部分开始 -->
+    <div class="footer">
+        <div class="w">
+            <div class="about clearfix">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="#">联系我们</a>
+                    </li>
+                    <li>
+                        <a href="#">联系客服</a>
+                    </li>
+                    <li>
+                        <a href="#">商家入驻</a>
+                    </li>
+                    <li>
+                        <a href="#">营销中心</a>
+                    </li>
+                    <li>
+                        <a href="#">手机品优购</a>
+                    </li>
+                    <li>
+                        <a href="#">友情链接</a>
+                    </li>
+                    <li>
+                        <a href="#">销售联盟</a>
+                    </li>
+                    <li>
+                        <a href="#">品优购社区</a>
+                    </li>
+                    <li>
+                        <a href="#">品优购公益</a>
+                    </li>
+                    <li>
+                        <a href="#">English Site</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact U</a>
+                    </li>
+                </ul>
+                <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
+                <p>&copy;京ICP备08001421号京公网安备110108007702</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer部分结束 -->
+    <script src="./js/common.js" />
+    <script type="text/javascript">
+        var QRcodeRegisterBtn = document.getElementById("QRcodeRegisterM");
+        var accountRegisterBtn = document.getElementById("accountRegisterM");
+        var QRcodeRegisterBox = document.getElementById("QRcodeRegister");
+        var accountRegisterBox = document.getElementById("accountRegister");
+        QRcodeRegisterBtn.onclick = function () {
+            console.log(QRcodeRegisterBox);
+            QRcodeRegisterBox.style.display = "block";
+            QRcodeRegisterBtn.style.color = "#c71520";
+            accountRegisterBox.style.display = "none";
+            accountRegisterBtn.style.color = "#646464";
+        };
+        accountRegisterBtn.onclick = function () {
+            console.log("勇士1-0火箭");
+            QRcodeRegisterBox.style.display = "none";
+            accountRegisterBox.style.display = "block";
+            accountRegisterBtn.style.color = "#c71520";
+            QRcodeRegisterBtn.style.color = "#646464";
+        };
+    </script>
+</body>
+
+</html>

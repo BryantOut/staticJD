@@ -1,0 +1,162 @@
+/* 模板初始化开始 */
+.head {
+    position: static;
+    height: 76px;
+    padding-top: 12px;
+}
+.head .head-logo  {
+    position: static;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 39px;
+}
+/* 模板初始化结束 */
+/* main部分开始 */
+.main {
+    width: 100%;
+    background: url('../img/register-bg.gif') repeat-x;
+}
+.main .w {
+    position: relative;
+    height: 486px;
+}
+.main .adv {
+    position: absolute;
+    top: 49px;
+    left: 96px;
+}
+.adv img {
+    width: 90%;
+}
+.register-box {
+    position: absolute;
+    top: 63px;
+    right:105px;
+    width: 286px;
+    height: 380px;
+    background-color: #fff;
+}
+.register-box {
+    padding: 0 38px;
+    text-align: center;
+}
+.register-method {
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 25px;
+    padding-bottom: 19px;
+}
+.register-method span {
+    display: block;
+    width: 72px;
+    height: 18px;
+    color: #6f6f6f;
+    cursor: pointer;
+}
+.register-method span:nth-child(1) {
+    float: left;
+}
+.register-method span:nth-child(2) {
+    float: right;
+    color: #c71520;
+}
+.accountRegister .alert {
+    display: block;
+    width: 293px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    text-align: left;
+    color: #666;
+    margin-bottom: 10px;
+    background-color: #fffced;
+}
+.accountRegister .username,.accountRegister .password {
+    width: 254px;
+    height: 34px;
+    background: url('../img/username.gif') no-repeat left center;
+    padding-left: 49px;
+    border: 1px solid #bababa;
+    outline: #0094FF;
+}
+.accountRegister .password {
+    background: url('../img/password.gif') no-repeat left center;
+    margin-top: 18px;
+    margin-bottom: 21px;
+}
+.autoRegister {
+    float: left;
+}
+.autoRegister>input {
+    color: #b3b3b3;
+}
+.autoRegister {
+    color: #b3b3b3;
+}
+.forgetPsw {
+    float: right;
+    color: #353535;
+}
+.accountFunction .btnRegister {
+    width: 303px;
+    height: 41px;
+    background-color: #c71523;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 21px;
+    margin-bottom: 33px;
+    letter-spacing: 5px;
+}
+.otherMethodRegister ul a {
+    display: block;
+    width: 32px;
+    height: 34px;
+    background: url('../img/icons2.fw.png') no-repeat;
+}
+.otherMethodRegister ul li:nth-child(2) a {
+    background: url('../img/icons2.fw.png') no-repeat 0 -34px;
+}
+.otherMethodRegister ul li:nth-child(3) a {
+    background: url('../img/icons2.fw.png') no-repeat 0 -68px;
+}
+.otherMethodRegister ul li:nth-child(4) a {
+    background: url('../img/icons2.fw.png') no-repeat 0 -103px;
+}
+.otherMethodRegister ul li {
+    float: left;
+    margin-right:20px; 
+}
+.otherMethodRegister span a {
+    display: block;
+    height: 34px;
+    font-size: 14px;
+    color: #1474af;
+    line-height: 34px;
+}
+.accountRegister {
+    /* display: none; */
+}
+.QRcodeRegister {
+    width: 100%;
+    display: none;
+}
+.QRcodeRegister span {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 60px auto;
+}
+.QRcodeRegister span img {
+    width: 200px;
+}
+/* .register-box {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: -190px;
+    width: 362px;
+    height: 380px;
+    background-color: #fff;
+} */
+/* main部分结束 */

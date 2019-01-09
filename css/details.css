@@ -1,0 +1,552 @@
+/*拷贝主页main-left部分开始*/
+
+.mian-left {
+    position: absolute;
+    top: 105px;
+    width: 209px;
+    /* height: 512px; */
+    background-color: #c71523;
+}
+
+.mian-left h2 {
+    height: 47px;
+    line-height: 47px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background-color: #b11919;
+}
+
+.mian-left ul {
+    display: none;
+}
+
+.mian-left:hover ul {
+    display: block;
+}
+
+.mian-left li {
+    height: 28px;
+    line-height: 28px;
+    margin-top: 3px;
+    padding-left: 12px;
+    padding-right: 8px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.mian-left li:hover {
+    background-color: #ccc;
+}
+
+.mian-left li:hover a, .mian-left li:hover .iconfont {
+    color: #fff;
+}
+
+.mian-left li a:hover, .mian-left li a:hover+.iconfont {
+    color: #b11919;
+}
+
+/* .mian-left li a:hover {
+    color: #b11919;
+} */
+
+.mian-left li .iconfont {
+    float: right;
+    font-family: "iconfont";
+}
+
+.mian-left li a {
+    color: #fff;
+}
+
+/*拷贝主页main-left部分结束*/
+
+/* details-box部分开始 */
+
+.details-box {
+    border-top: 2px solid #b11919;
+    padding-bottom: 30px;
+}
+
+.details-nav {
+    font-size: 14px;
+    margin: 24px 0 8px 0;
+}
+
+.details-nav span, .details-nav i {
+    float: left;
+}
+
+.details-nav i {
+    font-family: "iconfont";
+    margin: 0 18px;
+}
+
+.detail-info-left .bigImg {
+    width: 398px;
+    height: 398px;
+    text-align: center;
+    line-height: 398px;
+    border: 1px solid #f7f7f7;
+}
+
+.detail-info-left .bigImg img {
+    width: 90%;
+}
+
+.smallImg {
+    position: relative;
+    margin-top: 63px;
+    margin-bottom: 25px;
+}
+
+.smallImg li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin: 0 12px;
+}
+
+.arrow {
+    position: absolute;
+    top: 11px;
+    width: 400px;
+    height: 34px;
+}
+
+.arrow i {
+    font-family: "iconfont";
+    font-size: 24px;
+    text-align: left;
+}
+
+.arrow-left {
+    float: left;
+}
+
+.arrow-right {
+    float: right;
+}
+
+.otherFunction .proShare {
+    margin: 0 37px 0 33px;
+}
+.otherFunction .proShare i {
+    font-family:"iconfont";
+    margin-right: 6px;
+}
+.otherFunction .proAttention i {
+    font-family:"iconfont";
+    margin-right: 6px;
+}   
+.detail-info-right {
+    width: 718px;
+}
+
+.detail-info-right h2 {
+    font-size: 16px;
+}
+
+.detail-info-right .recommend {
+    font-size: 12px;
+    color: #E02127;
+    margin-top: 17px;
+    margin-bottom: 18px;
+}
+
+.detail-info-right .priceBox {
+    position: relative;
+    width: 710px;
+    height: 107px;
+    padding-top: 6px;
+    padding-left: 8px;
+    background-color: #FDE9EA;
+}
+
+.price {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 6px;
+}
+
+.activity {
+    width: 100%;
+    height: 45px;
+    line-height: 28px;
+}
+
+.priceBox .price .priceLabel, .activity .activityLabel {
+    float: left;
+    font-size: 12px;
+    letter-spacing: 25px;
+}
+
+.priceBox .price .priceInfo {
+    float: left;
+}
+
+.priceInfo em {
+    float: left;
+    font-size: 16px;
+    color: #e12228;
+}
+
+.priceInfo span {
+    float: left;
+    font-size: 24px;
+    color: #e12228;
+}
+
+.priceInfo i {
+    float: left;
+    font-size: 12px;
+    color: #C71523;
+    margin-left: 6px;
+}
+
+.activityInfo {
+    float: left;
+    width: 633px;
+    height: 45px;
+    font-size: 12px;
+}
+
+.activityInfo span {
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #c71523;
+    color: #fff;
+    margin-right: -1px;
+    cursor: pointer;
+}
+
+.activityInfo em {
+    color: #999;
+}
+
+.priceBox .comment {
+    width: 88px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    color: #999;
+}
+
+.priceBox .comment em {
+    color: #1373AE;
+    font-size: 12px;
+}
+
+.commentBox {
+    position: absolute;
+    top: 3px;
+    right: 9px;
+}
+
+.phoneService {
+    width: 718px;
+    padding-left: 8px;
+    margin-top: 25px;
+    padding-bottom: 12px;
+    border-bottom: 5px solid #f8f8f8;
+}
+
+.serviceSupport label, .serviceSend label {
+    letter-spacing: 25px;
+    color: #515151;
+}
+
+.serviceSupport .serviceSupportInfo, .serviceSend .serviceSendInfo {
+    color: #868686;
+}
+
+.serviceSupport, .serviceSend {
+    width: 718px;
+    height: 17px;
+    text-align: left;
+}
+
+.serviceSend {
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.serviceSend span i {
+    font-family: "iconfont";
+    cursor: pointer;
+}
+
+.serviceSend span i:nth-child(1) {
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.serviceSend span i:nth-child(2) {
+    margin-left: 37px;
+}
+
+.serviceSendTime {
+    color: #868686;
+    margin-left: 81px;
+}
+
+.serviceSendTime em {
+    font-weight: bold;
+}
+
+.phoneColor {
+    margin-top: 14px;
+    height: 34px;
+}
+
+.phoneColor label, .phoneColor span {
+    float: left;
+}
+.phoneTypeBox {
+    height: 197px;
+}
+.phoneTypeBox label
+{
+    margin-right: 13px;
+    line-height: 28px;
+}
+
+.phoneTypeBox span
+{
+    display: inline-block;
+    margin-right: 7px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #f7f7f7;
+    padding: 0 28px;
+    cursor: pointer;
+}
+.phoneTypeBox li {
+    height: 40px;
+    margin-bottom: -14px;
+}
+.phoneTypeBox li:nth-child(5) label {
+    letter-spacing: 12px;
+}
+.detail-info-right .line {
+    position: relative;
+    top: 4px;
+    left: 50%;
+    margin-left: -154px;
+    display: block;
+    height: 5px;
+    width: 308px;
+    background-color: #f8f8f8;
+}
+.addToShopCar {
+    margin-top: 12px;
+}
+.addToShopCar .addNum {
+    position: relative;
+    display: inline-block;
+    width: 49px;
+    height: 44px;
+    border: 1px solid #cacaca;
+}
+.addToShopCar input {
+    display: inline-block;
+    width: 143px;
+    height: 45px;
+    margin-left: 6px;
+    background-color: #cc151c;
+    font-size: 19px;
+    color: #fff;
+    vertical-align: top;
+}
+.addNum i {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-left:1px solid #cfcfcf;
+    background-color: #f0f0f0;
+}
+.addNum em {
+    position: absolute;
+    width: 33px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+} 
+.addNum .add {
+    top: 0px;
+    right: 0px;
+    border-bottom: 1px solid #cfcfcf;
+}
+.addNum .minus {
+    bottom: 0px;
+    right: 0px;
+}
+/* details-box部分结束 */
+
+/* detailsInfo部分开始 */
+.detailsInfoBox {
+    width: 1200px;
+}
+.detailsInfoBoxL {
+    width: 208px;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+.detailsInfoBoxL>input[type="button"] {
+    float: left;
+    width: 104px;
+    height: 31px;
+}
+.detailsInfoBoxL .tag1 {
+    background-color: #fff;
+    border-left: 1px solid #e3e3e3;
+}
+.detailsInfoBoxL .tag2 {
+    width: 103px;
+    height: 30px;
+    background-color: #f1f1f1;
+    border-left: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+}
+.tagContent {
+    width: 208px;
+}
+.tag1Type {
+    width: 100%;
+}
+.tag1Type ul {
+    padding: 0 13px;
+}
+.tag1Type li {
+    height: 28px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.tag1Type li span {
+    width: 91px;
+    height: 28px;
+    line-height: 28px;
+}
+.tag1Type li span:nth-child(1) {
+    float: left;
+}
+.tag1Type li span:nth-child(2) {
+    float: left;
+}
+.tag1Type ul li:nth-child(6){
+    border-bottom: none;
+}
+.otherRecommend {
+    padding: 31px 12px 0;
+}
+.otherRecommend>p {
+    font-size: 15px;
+    color: #373737;
+    margin-bottom: 5px;
+}
+.otherRecommend ul li {
+    width: 184px;
+    height: 218px;
+    border-top:1px solid #f6f6f6;
+}
+.otherRecommend ul li span {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+.otherRecommend ul li input {
+    display: block;
+    width: 90px;
+    height: 27px;
+    margin: 0 auto;
+    font-size: 14px;
+    background-color: #f7f7f7;
+}
+.detailsInfoBoxR {
+    width: 977px;
+}
+.detailsInfoBoxRHead {
+    width: 975px;
+    height: 37px;
+    background-color: #f1f1f1;
+    border: 1px solid #e3e3e3;
+}
+.detailsInfoBoxRHead li {
+    float: left;
+    width: 87px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    /* color: #fff; */
+    color: #303030;
+    /* background-color: #ca1521; */
+}
+.detailsInfoBoxRHead .current {
+    color: #fff;
+    background-color: #ca1521;
+}
+.detailsInfoBoxRProAdv {
+    position: relative;
+    padding-left: 20px;
+    padding-top: 24px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #dedede;
+}
+.detailsInfoBoxRProAdv span {
+    position: absolute;
+    font: bold 12px "simsun";
+    color: #333;
+    bottom: 19px;
+    right: 4px;
+    cursor: pointer;
+}
+.detailsInfoBoxRProAdv span i {
+    font-family:"iconfont";
+}
+/* detailsInfo部分结束 */
+/* otherRecommendPro部分开始 */
+.otherRecommendProBox {
+    height: 334px;
+}
+.otherRecommendProHead {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    background-color: #f1f1f1;
+}
+.otherRecommendProHead span {
+    margin-left: 12px;
+    font-weight: bold;
+}
+.otherRecommendProBox ul {
+    width: 978px;
+    margin: 0 auto;
+}
+.otherRecommendProBox li {
+    text-align: center;
+    float: left;
+    width: 163px;
+}
+.otherRecommendProBox li h6 {
+    font-weight: 100;
+}
+.otherRecommendProBox li span {
+    display: block;
+    color: #cc0000;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 15px;
+}
+.otherRecommendProBox li em {
+    display: block;
+    margin: 17px auto;
+}
+.otherRecommendProBox li em i {
+    color: #875aa8;
+}
+/* otherRecommendPro部分结束 */
